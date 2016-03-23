@@ -92,7 +92,6 @@
     <Compile Include="Selectors\SelectorBasedControl.cs" />
     <Compile Include="Selectors\JQuerySelector.cs" />
     <Compile Include="Selectors\SelectorPart.cs" />
-    <Compile Include="TestControl.cs" />
     <Compile Include="UITestControl.Core.cs" />
     <Compile Include="UITestControl.cs" />
     <Compile Include="UITestControlCollection.cs" />

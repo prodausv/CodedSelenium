@@ -43,43 +43,6 @@ namespace CodedSelenium.Test
         }
 
         [Test]
-        public void HtmlTableTest_ByColumnCount()
-        {
-            HtmlTable table = new HtmlTable(BrowserWindow);
-            table.SearchProperties.Add(HtmlTable.PropertyNames.ColumnCount, "1");
-
-            table.Id.Should().Be("microTable");
-        }
-
-        [Test]
-        public void HtmlTableTest_ByRowCount()
-        {
-            HtmlTable table = new HtmlTable(BrowserWindow);
-            table.SearchProperties.Add(HtmlTable.PropertyNames.RowCount, "2");
-
-            table.Id.Should().Be("microTable");
-        }
-
-        [Test]
-        public void HtmlTableTest_ByCellCount()
-        {
-            HtmlTable table = new HtmlTable(BrowserWindow);
-            table.SearchProperties.Add(HtmlTable.PropertyNames.CellCount, "2");
-
-            table.Id.Should().Be("microTable");
-        }
-
-        [Test]
-        public void HtmlTableTest_ByRowAndColumnCount()
-        {
-            HtmlTable table = new HtmlTable(BrowserWindow);
-            table.SearchProperties.Add(HtmlTable.PropertyNames.ColumnCount, "1");
-            table.SearchProperties.Add(HtmlTable.PropertyNames.RowCount, "2");
-
-            table.Id.Should().Be("microTable");
-        }
-
-        [Test]
         public void HtmlTableTest_ByInstance()
         {
             HtmlTable table = new HtmlTable(BrowserWindow);
